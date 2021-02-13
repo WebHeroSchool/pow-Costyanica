@@ -1,10 +1,6 @@
 function pow(x, n) {
 
-  let result = x;
-
-  for (let i=1; i < n; i++) {
-    result* = x;
-  }
+  let result = Math.pow(x, n);
   
   return result;
 }
