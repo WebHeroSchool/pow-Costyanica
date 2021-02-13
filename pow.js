@@ -3,11 +3,10 @@ function pow(x, n) {
   
   if ( x>0 && n>0 ) { 
     result = Math.pow(x, n);
+    return result;
   } else {
-    result = 'false'
+    return 'false';
   }
-  
-  return result;
 }
 
 module.exports = pow;
