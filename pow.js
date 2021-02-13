@@ -5,7 +5,7 @@ function pow(x, n) {
     result = Math.pow(x, n);
     return result;
   } else {
-    return 'false';
+    return false;
   }
 }
 
